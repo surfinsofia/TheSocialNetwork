@@ -1,8 +1,11 @@
+
+//require mongoose and moment to create schema, model, types
+
 const { Schema, model, Types } = require('mongoose');
 // import moment module to format the timestamp 
 const moment = require('moment')
 
-//reaction schema
+//reaction new schema
 const reactionSchema = new Schema (
     {
        reactionId: {
@@ -33,7 +36,7 @@ const reactionSchema = new Schema (
     }
 )
 
-// thought schema
+// thought new schema
 const thoughtSchema = new Schema (
     {
       thoughtText: {
