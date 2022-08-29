@@ -1,3 +1,5 @@
+//each user has a user id, use this id to test in insomnia
+
 const { User, Thought } = require("../models");
 
 module.exports = {
