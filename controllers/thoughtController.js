@@ -1,3 +1,5 @@
+//thoughts are posts, or 'tweets'
+
 const { User, Thought } = require("../models");
 
 module.exports = {
